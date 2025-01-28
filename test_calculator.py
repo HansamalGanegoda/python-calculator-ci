@@ -10,7 +10,7 @@ def test_multiply():
     assert multiply(2, 3) == 6
 
 def test_divide():
-    assert divide(6, 3) == 2
+    assert divide(12, 3) == 4
     try:
         divide(1, 0)
     except ValueError:
